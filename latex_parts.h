@@ -3,25 +3,26 @@ const char *LATEX_ARTICLE_HEAD =
 "\\usepackage{hyperref} 				\n"
 "\\usepackage{graphicx}                 \n"
 "\\graphicspath{ {./samples/} }         \n"
-"\\begin{document}\n\n					\n";
+"\\usepackage[a4paper, total={6in, 8in}]{geometry}\n"
+"\\begin{document}\n\n\\large\n\n					\n";
 
 const char *LATEX_ARTICLE_INTRODUCTION = 
 "\\begin{titlepage}\n"
 "\\begin{center}\n"
 "\\LARGE\n"
-"Moscow Institute of Physics and Technology\n"
+"Moscow Institute of Physics and Technology\n\n"
 "\\large\n"
-"Phystech Skola of Applied Mathematics and Informatics\n"
+"Phystech Skola of Applied Mathematics and Informatics\n\n"
 "\\Large\n"
-"\\textit{Gorishniy Maxim Pavlovich}\n"
+"\\textit{Gorishniy Maxim Pavlovich$^{[-1]}$}\n\n"
 "\\end{center}\n"
 "\\begin{center}\n"
 "\\Huge\n"
-"\\textbf{Complex methods of continuum differentiation applied in The Holy Bible$^{[0]}$ undestandings through time and space manipulations}\n"
+"\\textbf{Complex methods of continuum differentiation applied in}\n\n\\textbf{ The Holy Bible$^{[0]}$}\n\n\\textbf{ undestandings through time and space manipulations}\n\n"
 "\\end{center}\n"
 "\\begin{center}\n"
 "\\large\n"
-"\\textit{\\underline{Nobel Prize presentation}}\n"
+"\\textit{\\underline{Nobel Prize presentation}}\n\n"
 "\\end{center}\n"
 "\\begin{center}\n"
 "2020-12-31\n"
@@ -49,8 +50,10 @@ const char *LATEX_RESULTS_AND_CONCLUSION =
 "Thank you for the attenting and let's have a last look at this magnificent expression we got";
 
 const char *REFERENCES = 
-"0. \"Bible\" - Jesus Christ or idk I don't watch anime\n\n"
-"1. \"Das Kapital\" - Karl Marks (my pear manager), 1867\n\n"
-"2. \"Evangelion\" - Hideaki Anno, October 4, 1995 – March 27, 1996\n\n"
-"3. \"The shortest and the saddest story\" - Ernest Hemingway, literaly every day\n\n"
-"4. ";
+"\\begin{flushleft}"
+"-1. In the prime of life - \\textit{https://github.com/Magorx/Differentiator}\n\n"
+"0. \"\\textit{Bible}\" - Jesus Christ or idk I don't watch anime\n\n"
+"1. \"\\textit{Das Kapital}\" - Karl Marks (my pear manager), 1867\n\n"
+"2. \"\\textit{Evangelion}\" - Hideaki Anno, October 4, 1995 – March 27, 1996\n\n"
+"3. \"\\textit{The shortest and the saddest story}\" - Ernest Hemingway, literaly every day\n\n"
+"\\end{flushleft}";

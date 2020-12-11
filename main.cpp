@@ -7,7 +7,7 @@ const int table_size = 257;
 int stress();
 
 int main() {
-	int mode = SIMPLIFY;
+	int mode = DIFFERENCIATE;
 
 	ExpressionTree tree = {};
 	tree.ctor();
@@ -19,7 +19,7 @@ int main() {
 	}
 
 	tree.dump();
-	tree.show_off("tmp", mode);
+	tree.show_off("disser", mode);
 	tree.dtor();
 
 	return 0;

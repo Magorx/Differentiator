@@ -423,6 +423,7 @@ public:
 
 		fprintf(file, "\\includegraphics[width=13cm, height=6cm]{welcome_to_the_internet.jpg}\n\n");
 
+		fprintf(file, "\\newpage\\section{\\Large{References}}\n\n");
 		fprintf(file, "%s\n", REFERENCES);
 
 		fprintf(file, "\n\\end{document}");

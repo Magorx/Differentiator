@@ -2,7 +2,10 @@
 \usepackage{hyperref} 				
 \usepackage{graphicx}                 
 \graphicspath{ {./samples/} }         
+\usepackage[a4paper, total={6in, 8in}]{geometry}
 \begin{document}
+
+\large
 
 					
 
@@ -10,18 +13,27 @@
 \begin{center}
 \LARGE
 Moscow Institute of Physics and Technology
+
 \large
 Phystech Skola of Applied Mathematics and Informatics
+
 \Large
-\textit{Gorishniy Maxim Pavlovich}
+\textit{Gorishniy Maxim Pavlovich$^{[-1]}$}
+
 \end{center}
 \begin{center}
 \Huge
-\textbf{Complex methods of continuum differentiation applied in The Holy Bible$^{[0]}$ undestandings through time and space manipulations}
+\textbf{Complex methods of continuum differentiation applied in}
+
+\textbf{ The Holy Bible$^{[0]}$}
+
+\textbf{ undestandings through time and space manipulations}
+
 \end{center}
 \begin{center}
 \large
 \textit{\underline{Nobel Prize presentation}}
+
 \end{center}
 \begin{center}
 2020-12-31
@@ -62,14 +74,18 @@ After getting these oustanding results, let's try to abstract away a bit and thi
 $$ \left(x+7\right)\cdot \left(2\cdot x+12\right)+2\cdot \left(x+3\right)$$
 \includegraphics[width=13cm, height=6cm]{welcome_to_the_internet.jpg}
 
-0. "Bible" - Jesus Christ or idk I don't watch anime
+\section{\Large{References}}
 
-1. "Das Kapital" - Karl Marks (my pear manager), 1867
+\begin{flushleft}-1. In the prime of life - \textit{https://github.com/Magorx/Differentiator}
 
-2. "Evangelion" - Hideaki Anno, October 4, 1995 – March 27, 1996
+0. "\textit{Bible}" - Jesus Christ or idk I don't watch anime
 
-3. "The shortest and the saddest story" - Ernest Hemingway, literaly every day
+1. "\textit{Das Kapital}" - Karl Marks (my pear manager), 1867
 
-4. 
+2. "\textit{Evangelion}" - Hideaki Anno, October 4, 1995 – March 27, 1996
+
+3. "\textit{The shortest and the saddest story}" - Ernest Hemingway, literaly every day
+
+\end{flushleft}
 
 \end{document}
