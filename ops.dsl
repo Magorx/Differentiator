@@ -14,7 +14,7 @@ OPDEF(sub, -, 2, 5, L_RES - R_RES, DL + DR, "", "-", "")
 OPDEF(mul, *, 2, 7, L_RES * R_RES, DL * R_COPY + DR * L_COPY, "", "\\cdot ", "")
 OPDEF(div, /, 2, 7, L_RES / R_RES, (DL * R_COPY - DR * L_COPY) / R_COPY / R_COPY, "\\frac{", "}{", "}")
 
-OPDEF(pow, ^, 2, 8,   pow(L_RES, R_RES), (L_COPY ^ R_COPY) * ((DR * LOG(L_COPY) + (L_COPY ^ (-1)) * R_COPY)), "", "^{", "}")
+OPDEF(pow, ^, 2, 8, pow(L_RES, R_RES), (L_COPY ^ R_COPY) * ((DR * LOG(L_COPY) + (L_COPY ^ (-1)) * R_COPY)), "", "^{", "}")
 
 OPDEF(sin, sin, 1, 9, sin(R_RES), COS(R_COPY) * DR, "\\sin {", " ", "}")
 OPDEF(cos, cos, 1, 9, cos(R_RES), SIN(R_COPY) * DR  * (-1), "\\cos {", " ", "}")
